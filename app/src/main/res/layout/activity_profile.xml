@@ -102,7 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="5"
-                android:src="@drawable/password" />
+                android:src="@drawable/wallet" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,18 +115,18 @@
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Password"
+                    android:text="Wallet"
                     android:textSize="30dp"
                     android:textColor="#00E3FF"/>
                 <TextView
                     android:layout_weight="1"
-                    android:id="@+id/passwordPf"
+                    android:id="@+id/wallet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
                     android:textSize="25dp"
                     android:ems="1"
-                    android:text="********"
+                    android:text="400$"
                     android:textColor="#C5C6C7"/>
             </LinearLayout>
         </LinearLayout>

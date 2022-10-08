@@ -26,7 +26,6 @@ public class menu_profile extends Fragment {
             phonePf= view.findViewById(R.id.phonenumberPf);
             usernaPf= view.findViewById(R.id.usernamePf);
             mailPf= view.findViewById(R.id.mailPf);
-            passPf=view.findViewById(R.id.passwordPf);
             birthPf= view.findViewById(R.id.birthPf);
             locPf= view.findViewById(R.id.locationPf);
             btnPf= view.findViewById(R.id.buttonPf);
@@ -34,7 +33,6 @@ public class menu_profile extends Fragment {
         namePf.setText(Contain.user.getName());
         usernaPf.setText(Contain.user.getUsername());
         phonePf.setText(Contain.user.getPhone());
-        passPf.setText(Contain.user.getPassword());
         birthPf.setText(Contain.user.getBirth());
         mailPf.setText(Contain.user.getMail());
         locPf.setText(Contain.user.getLocation());
